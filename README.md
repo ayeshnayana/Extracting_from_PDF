@@ -15,8 +15,8 @@ if the istallation did not work i.e you cant import camelot then uninstall camel
 3. Check the ghostcript is installed sucessfully:
 - In the cmd run following
 -import ctypes
-from ctypes.util import find_library
-find_library("".join(("gsdll", str(ctypes.sizeof(ctypes.c_voidp) * 8), ".dll")))
+-from ctypes.util import find_library
+-find_library("".join(("gsdll", str(ctypes.sizeof(ctypes.c_voidp) * 8), ".dll")))
 
  The output of the find_library function should not be empty.
 
